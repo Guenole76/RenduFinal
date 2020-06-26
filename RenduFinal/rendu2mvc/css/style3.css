@@ -1,0 +1,93 @@
+body {
+
+    background-image: url("fondlol2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .rechercher1 {
+	border:none;
+	padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 40px;
+	background:#ffff;
+	font:bold 40px Arial;
+    background-color:#033939;
+    color:#3A5B5B;
+    width: 381px;
+    height:554px;
+    grid-column:  1 / 4;
+    grid-row: 1 / 1;
+}
+
+.rechercher2 {
+	border:none;
+	padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 40px;
+	background:#ffff;
+	font:bold 40px Arial;
+    background-color:#D76283;
+    color:#5B3A45;
+    width: 381px;
+    height:554px;
+    grid-column:  2 / 4;
+    grid-row: 1 / 1;
+}
+
+.rechercher3 {
+	border:none;
+	padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 40px;
+	background:#ffff;
+	font:bold 40px Arial;
+    background-color:#B621CF;
+    color:#553A5B;
+    width: 381px;
+    height:554px;
+    grid-column:  3 / 4;
+    grid-row: 1 / 1;
+}
+
+.rechercher4 {
+	border:none;
+	padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 40px;
+	background:#ffff;
+	font:bold 40px Arial;
+    background-color:#64A0A0;
+    color:#3A5B5B;
+    width: 381px;
+    height:554px;
+    grid-column:  4 / 4;
+    grid-row: 1 / 1;
+}
+
+
+.tousleslv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    grid-auto-rows: minmax(75px, auto);
+    margin-left: 15px;
+    margin-top: 200px;
+}
+
+
+.maitrise{
+
+    z-index: 0;
+    margin-top: -500px;
+    margin-left: 120px;
+}
