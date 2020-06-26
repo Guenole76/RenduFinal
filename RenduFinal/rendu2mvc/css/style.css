@@ -1,3 +1,5 @@
+ /* css de la page d'inscription */ 
+
 * {box-sizing: border-box}
 
 /*
@@ -299,8 +301,7 @@ input[type=submit]:active {
 
 
 
-
-
+ /* styles des 4 messages d'erreur */ 
 
 .errorpseudo {
 	color: violet;
